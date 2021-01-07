@@ -10,6 +10,7 @@ pipeline {
         git 'https://github.com/AlexanderIbarra/workshop-protractor'
          sh 'npm install'
           sh 'npm run test:headless'
+      }
     }
   }
 }
