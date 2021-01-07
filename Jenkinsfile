@@ -9,8 +9,7 @@ pipeline {
       steps {
         git 'https://github.com/AlexanderIbarra/workshop-protractor'
          sh 'npm install'
-          sh 'node test'
-      }
+          sh 'npm run test:headless'
     }
   }
 }
