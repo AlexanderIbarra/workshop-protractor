@@ -4,7 +4,7 @@ import { DownloadService } from '../src/service';
 
 describe('Given a page to practice automation', () => {
   beforeAll(async () => {
-    await browser.get('http://toolsqa.com/automation-practice-form/');
+    await browser.get('https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm');
   });
 
   describe('when I am training locators', () => {
