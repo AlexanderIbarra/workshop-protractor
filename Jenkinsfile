@@ -1,7 +1,7 @@
 pipeline {
   agent any
 
-  tools {nodejs "node"}
+  tools {nodejs "NodeJS"}
 
   stages {
 
@@ -9,7 +9,7 @@ pipeline {
       steps {
         git 'https://github.com/AlexanderIbarra/workshop-protractor'
          sh 'npm install'
-         sh 'node test'
+          sh 'node test'
       }
     }
   }
